@@ -1,7 +1,7 @@
 #Technical Description
 
 #Input Data
-all input files are stored inside the HDFS which is accessible via hdfs://localhost:9000/users/icklerly/assignment11/Input
+all input files are stored inside the HDFS which is accessible via: hdfs://localhost:9000/users/icklerly/assignment11/Input
 
 Machine Learning Files:
     
@@ -11,5 +11,10 @@ Machine Learning Files:
     - ./sparse_Flink.csv
 
 Network Files:
+    
     - ./methylation_edges.csv
     - ./mRNA_edges.csv
+
+#Programs
+
+
