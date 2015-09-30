@@ -5,8 +5,11 @@ all input files are stored inside the HDFS which is accessible via hdfs://localh
 
 Machine Learning Files:
     - ./methylation_Flink.csv
+
     - ./mRNA_Flink.csv
+
     - ./mixed_Flink.csv
+
     - ./sparse_Flink.csv
 
 Network Files:
