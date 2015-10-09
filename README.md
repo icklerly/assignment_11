@@ -1,23 +1,30 @@
 #Technical Description
 
 #Input Data
-all input files are stored inside the HDFS which is accessible via: hdfs://localhost:9000/users/icklerly/assignment11/Input
+all input files are stored inside the HDFS which is accessible at: hdfs://localhost:9000/users/icklerly/assignment11/Input
+
+Matrix Completion File:
+    - ./ALS/NaN_predict_Flink.csv
+    - ./ALS/NaN_train_Flink.csv
 
 Machine Learning Files:
     
-    - ./methylation_Flink.csv
-    - ./mRNA_Flink.csv
-    - ./mixed_Flink.csv
-    - ./sparse_Flink.csv
+    - ./ML/methylation_Flink.csv
+    - ./ML/mRNA_Flink.csv
+    - ./ML/mixed_Flink.csv
+    - ./ML/sparse_Flink.csv
 
-Network Files:
-    
-    - ./methylation_edges.csv
+Network File:
     - ./mRNA_edges.csv
 
 #Programs
 
 Matrix Completion:
-0 2 0.001 10 1 1  ./persistence ./NaN_Flink.csv ./output_meth
+-c MatrixCompletion <input path: train> <input path: predict> <output path>
+
+Machine Learning:
+
+-c ML <method> (MLR, SVM) <data type> (methylation, mRNA, mixed, sparse) <output path>
+
 
 
