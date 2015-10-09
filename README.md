@@ -17,14 +17,17 @@ Machine Learning Files:
 Network File:
     - ./mRNA_edges.csv
 
-#Programs
+#Program
+The Jar "Assignment11_icklerly.jar" contains all methods:
 
 Matrix Completion:
 -c MatrixCompletion <input path: train> <input path: predict> <output path>
 
 Machine Learning:
-
 -c ML <method> (MLR, SVM) <data type> (methylation, mRNA, mixed, sparse) <output path>
+
+Community Detection
+-c Communitydetection <edge path> <output path/fileName> <num iterations> <delta>
 
 
 
