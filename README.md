@@ -3,7 +3,7 @@
 #Input Data
 all input files are stored inside the HDFS which is accessible at: hdfs://localhost:9000/users/icklerly/assignment11/Input
 
-Matrix Completion File:
+Matrix Completion Files:
     
     - ./ALS/NaN_predict_Flink.csv
     - ./ALS/NaN_train_Flink.csv
