@@ -13,21 +13,6 @@ import org.apache.flink.api.scala._
 import org.slf4j.LoggerFactory
 import org.slf4j.Logger
 
-/**
- * Created by Lydia Ickler on 16.07.15.
- *
- * This Application reads in a File "subset.csv" that consists of 1791 patients(rows) their cancer type (first column)
- * and their 500 normalized mRNA-Level3 counts (columns 2-501) -> DataSet[String]
- *
- * It then converts the DataSet[String] to either a DataSet[LabeledVector] suitable for either SVM or MLR
- *  - convertSVM()
- *  - convertMLR()
- *
- *  Finally it performs SVM and MLR with specified parameters and a 10-fold cross validation
- *
- *  The results are stored in Output-Files that are named according to the used stepSize
- */
-
 object ML{
 
   val DIMENSION = "dimension"
