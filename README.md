@@ -24,6 +24,7 @@ The Jar "Assignment11_icklerly.jar" contains all methods:
 
 1.
 Matrix Completion:
+
 -c MatrixCompletion [input path: train] [input path: predict] [output path/fileName]
 
 e.g.    bin/flink run -c MatrixCompletion
@@ -34,6 +35,7 @@ e.g.    bin/flink run -c MatrixCompletion
 
 2.
 Machine Learning:
+
 -c ML [method] (MLR, SVM) [data type] (methylation, mRNA, mixed, sparse) [output path]
 
 e.g.    bin/flink run -c ML /tmp/icklerly/try999.jar 
@@ -43,6 +45,7 @@ e.g.    bin/flink run -c ML /tmp/icklerly/try999.jar
 
 3.
 Community Detection
+
 -c Communitydetection [edge path] [output path/fileName] [num iterations] [delta]
 
 e.g.    bin/flink run -c Communitydetection /tmp/icklerly/try999.jar 
