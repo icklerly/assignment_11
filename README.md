@@ -46,14 +46,14 @@ e.g.
         /home/flink.0.10_old/bin/flink run -c ML /tmp/icklerly/try999.jar 
         MLR
         sparse
-        hdfs://localhost:9000/users/icklerly/Assignment11/Output/
+        hdfs://localhost:9000/users/icklerly/Assignment11/Output
 
 or
 
         /home/flink.0.10_old/bin/flink run -c ML /tmp/icklerly/try999.jar 
         SVM
         sparse
-        hdfs://localhost:9000/users/icklerly/Assignment11/Output/
+        hdfs://localhost:9000/users/icklerly/Assignment11/Output
 
 3.
 Community Detection
