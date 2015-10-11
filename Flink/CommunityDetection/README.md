@@ -1,2 +1,0 @@
-#Flink - Community Detection
-
