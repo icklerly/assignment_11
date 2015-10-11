@@ -28,6 +28,7 @@ Matrix Completion:
 -c MatrixCompletion [input path: train] [input path: predict] [output path/fileName]
 
 	
+	
 	/home/flink.0.10_old/bin/flink run -c MatrixCompletion
         /tmp/icklerly/try999.jar 
         hdfs://localhost:9000/users/icklerly/Assignment11/Input/ALS/NaN_train_Flink.csv 
