@@ -23,7 +23,7 @@ Network File:
 The Jar "Assignment11_icklerly.jar" contains all methods:
 
 Matrix Completion:
--c MatrixCompletion <input path: train> <input path: predict> <output path/fileName>
+-c MatrixCompletion input path: train input path: predict output path/fileName
 
 e.g.    bin/flink run -c MatrixCompletion
         /tmp/icklerly/try999.jar 
