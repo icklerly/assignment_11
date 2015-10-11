@@ -38,10 +38,14 @@ Machine Learning:
 
 -c ML [method: MLR, SVM] [data type: methylation, mRNA, mixed, sparse] [output path]
 
-e.g.    /home/flink.0.10_old/bin/flink run -c ML /tmp/icklerly/try999.jar 
+e.g.
+
+	/home/flink.0.10_old/bin/flink run -c ML /tmp/icklerly/try999.jar 
         MLR
         sparse
         hdfs://localhost:9000/users/icklerly/Assignment11/Output/ML
+
+or
 
         /home/flink.0.10_old/bin/flink run -c ML /tmp/icklerly/try999.jar 
         SVM
