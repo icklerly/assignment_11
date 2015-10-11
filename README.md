@@ -27,7 +27,7 @@ Matrix Completion:
 
 -c MatrixCompletion [input path: train] [input path: predict] [output path/fileName]
 
-e.g.    bin/flink run -c MatrixCompletion
+e.g.    /home/flink.0.10_old/bin/flink run -c MatrixCompletion
         /tmp/icklerly/try999.jar 
         hdfs://localhost:9000/users/icklerly/Assignment11/Input/ALS/NaN_train_Flink.csv 
         hdfs://localhost:9000/users/icklerly/Assignment11/Input/ALS/NaN_predict_Flink.csv 
@@ -38,13 +38,13 @@ Machine Learning:
 
 -c ML [method: MLR, SVM] [data type: methylation, mRNA, mixed, sparse] [output path]
 
-e.g.    bin/flink run -c ML /tmp/icklerly/try999.jar 
+e.g.    /home/flink.0.10_old/bin/flink run -c ML /tmp/icklerly/try999.jar 
         MLR
         sparse
         hdfs://localhost:9000/users/icklerly/Assignment11/Output/ML
 or
-        bin/flink run -c ML /tmp/icklerly/try999.jar 
-        MLR
+        /home/flink.0.10_old/bin/flink run -c ML /tmp/icklerly/try999.jar 
+        SVM
         sparse
         hdfs://localhost:9000/users/icklerly/Assignment11/Output/ML
 
@@ -53,7 +53,7 @@ Community Detection
 
 -c Communitydetection [edge path] [output path/fileName] [num iterations] [delta]
 
-e.g.    bin/flink run -c Communitydetection /tmp/icklerly/try999.jar 
+e.g.    /home/flink.0.10_old/bin/flink run -c Communitydetection /tmp/icklerly/try999.jar 30 0.5
         
 
 
