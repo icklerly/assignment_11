@@ -36,7 +36,7 @@ e.g.    bin/flink run -c MatrixCompletion
 2.
 Machine Learning:
 
--c ML [method] MLR, SVM [data type] (methylation, mRNA, mixed, sparse) [output path]
+-c ML [method: MLR, SVM] [data type: methylation, mRNA, mixed, sparse] [output path]
 
 e.g.    bin/flink run -c ML /tmp/icklerly/try999.jar 
         MLR
