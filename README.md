@@ -23,13 +23,29 @@ Network File:
 The Jar "Assignment11_icklerly.jar" contains all methods:
 
 Matrix Completion:
--c MatrixCompletion <input path: train> <input path: predict> <output path>
+-c MatrixCompletion <input path: train> <input path: predict> <output path/fileName>
+
+e.g.    bin/flink run -c MatrixCompletion
+        /tmp/icklerly/try999.jar 
+        hdfs://localhost:9000/users/icklerly/Assignment11/Input/ALS/NaN_train_Flink.csv 
+        hdfs://localhost:9000/users/icklerly/Assignment11/Input/ALS/NaN_predict_Flink.csv 
+        hdfs://localhost:9000/users/icklerly/Assignment11/Output/NaN_predicted.csv
 
 Machine Learning:
 -c ML <method> (MLR, SVM) <data type> (methylation, mRNA, mixed, sparse) <output path>
 
+e.g.    bin/flink run -c ML /tmp/icklerly/try999.jar 
+        MLR
+        sparse
+        hdfs://localhost:9000/users/icklerly/Assignment11/Output/ML
+
 Community Detection
 -c Communitydetection <edge path> <output path/fileName> <num iterations> <delta>
+
+e.g.    bin/flink run -c Communitydetection /tmp/icklerly/try999.jar 
+        MLR
+        sparse
+        hdfs://localhost:9000/users/icklerly/Assignment11/Output/ML
 
 
 
