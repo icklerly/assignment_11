@@ -54,9 +54,7 @@ Community Detection
 -c Communitydetection [edge path] [output path/fileName] [num iterations] [delta]
 
 e.g.    bin/flink run -c Communitydetection /tmp/icklerly/try999.jar 
-        MLR
-        sparse
-        hdfs://localhost:9000/users/icklerly/Assignment11/Output/ML
+        
 
 
 
