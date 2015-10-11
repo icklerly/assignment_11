@@ -60,7 +60,13 @@ Community Detection
 
 -c Communitydetection [edge path] [output path/fileName] [num iterations] [delta]
 
-e.g.    /home/flink.0.10_old/bin/flink run -c Communitydetection /tmp/icklerly/try999.jar 30 0.5
+e.g.
+
+        /home/flink.0.10_old/bin/flink run -c Communitydetection /tmp/icklerly/try999.jar 30 0.5
+        /users/icklerly/Assignment11/Input/Network/mRNA_edges.txt
+        /users/icklerly/Assignment11/Output
+        30
+        0.5
         
 
 
