@@ -42,6 +42,11 @@ e.g.    bin/flink run -c ML /tmp/icklerly/try999.jar
         MLR
         sparse
         hdfs://localhost:9000/users/icklerly/Assignment11/Output/ML
+or
+        bin/flink run -c ML /tmp/icklerly/try999.jar 
+        MLR
+        sparse
+        hdfs://localhost:9000/users/icklerly/Assignment11/Output/ML
 
 3.
 Community Detection
